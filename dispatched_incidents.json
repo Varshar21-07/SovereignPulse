@@ -1,0 +1,34 @@
+[
+  {
+    "dispatch_id": "CAD-DISPATCH-1792227925641",
+    "timestamp": "2026-10-17 02:35:25 PM",
+    "category": "Transit & Public Safety",
+    "location": "fire accident in Koramangala",
+    "priority": "P1_CRITICAL",
+    "target_department": "Metropolitan Transit Police & Rapid Response",
+    "department_terminal": "TRANSIT-Command-01 (Bangalore Central)",
+    "people_affected": "Persons reported at scene",
+    "hazards": [
+      "Active field situation"
+    ],
+    "uncertainties": [],
+    "status": "DISPATCHED_TO_FIELD_UNITS",
+    "audit_token": "SHA256-27925641"
+  },
+  {
+    "dispatch_id": "CAD-DISPATCH-1792227725153",
+    "timestamp": "2026-10-17 02:32:05 PM",
+    "category": "Road Accident",
+    "location": "Whitefield Main Rd",
+    "priority": "P1_CRITICAL",
+    "target_department": "Highway Patrol & Traffic Command",
+    "department_terminal": "CAD-Terminal-04",
+    "people_affected": "2 persons",
+    "hazards": [
+      "Fuel spill"
+    ],
+    "uncertainties": [],
+    "status": "DISPATCHED_TO_FIELD_UNITS",
+    "audit_token": "SHA256-27725153"
+  }
+]

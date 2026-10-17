@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node & Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Secrets & Keys
+.env
+.env.local
+sovereign-pulse/.env
+
+# Temporary artifacts
+*.log
+/tmp/

@@ -1,0 +1,12 @@
+# One selected target, named after the provider (N15): what you test is what
+# you deploy. All models, including STT and VAD, are defined in agent.yaml;
+# this file carries the infrastructure plus an optional `models:` map that
+# overrides an entry, by name, for a target that cannot run it as defined.
+# Add more instances later if this package needs a second environment.
+#
+# Nothing here holds a secret. Where a model override or a connection does name
+# a credential, it names the environment variable and never the value.
+targets:
+  pipecat:
+    provider: pipecat
+    version: "1.10.0"
